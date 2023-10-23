@@ -4,14 +4,28 @@ import { useRef, useState } from "react";
 
 import { AiOutlineClose } from "react-icons/ai";
 
+import Accordion from "../Acordion/Acordion";
+
 import Burger from "../../icons/burger.svg";
 import Logo from "../../icons/logo.svg";
 import Cart from "../../icons/cart.svg";
 import CloseBurger from "../../icons/CloseBurgerMenu.svg";
+import DropDown from "../../icons/dropdown.svg";
+import { Link } from "react-router-dom";
 
 function Header() {
+  const arrFemSections = [
+    <Link to="/sweaters">Светри</Link>,
+    <Link to="/bodies">Боді</Link>,
+    <Link to="/shorts">Футболки</Link>,
+    <Link to="/tops">Топи</Link>,
+    <Link to="/complects">Комплекти</Link>,
+    <Link to="/hoodies">Худі</Link>,
+    <Link to="/sweatshots">Світшоти</Link>,
+  ];
   const [cartQuantity, setCartQuantity] = useState(0);
   const [isNavOpen, setIsNavOpen] = useState(false);
+  const [activeIndex, setActiveIndex] = useState();
 
   const showNavbar = () => {
     setIsNavOpen(!isNavOpen);
@@ -54,6 +68,7 @@ function Header() {
             </button>
             <div className={classes.stripe}></div>
           </div>
+          <Accordion listMenu={arrFemSections} />
           <div className={classes.menu_nav}>
             <a href="/#">Home</a>
             <a href="/#">Shop</a>
