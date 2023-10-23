@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Kolos/static/css/main.81272be2.css",
-    "main.js": "/Kolos/static/js/main.57f2f938.js",
+    "main.css": "/Kolos/static/css/main.67550a46.css",
+    "main.js": "/Kolos/static/js/main.1030bf29.js",
     "static/media/Casual.jpg": "/Kolos/static/media/Casual.b35b91becee26739429a.jpg",
     "static/media/Classic.jpg": "/Kolos/static/media/Classic.61389dc262614cff1915.jpg",
     "static/media/cart.svg": "/Kolos/static/media/cart.8117eab85599e84747e6d808c34cf72c.svg",
@@ -13,11 +13,11 @@
     "static/media/burger.svg": "/Kolos/static/media/burger.f4144cea1d8edb31b8a0470682dec3d1.svg",
     "static/media/CloseBurgerMenu.svg": "/Kolos/static/media/CloseBurgerMenu.a5727825691a1ee5fe7a9d90152da60e.svg",
     "static/media/dropdown.svg": "/Kolos/static/media/dropdown.8e37154d08a87acdabfa6ade924c1a3f.svg",
-    "main.81272be2.css.map": "/Kolos/static/css/main.81272be2.css.map",
-    "main.57f2f938.js.map": "/Kolos/static/js/main.57f2f938.js.map"
+    "main.67550a46.css.map": "/Kolos/static/css/main.67550a46.css.map",
+    "main.1030bf29.js.map": "/Kolos/static/js/main.1030bf29.js.map"
   },
   "entrypoints": [
-    "static/css/main.81272be2.css",
-    "static/js/main.57f2f938.js"
+    "static/css/main.67550a46.css",
+    "static/js/main.1030bf29.js"
   ]
 }
