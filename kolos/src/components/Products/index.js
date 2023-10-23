@@ -1,12 +1,16 @@
 import Header from "../Header";
-import Sections from "../Sections";
-import Footer from "../Footer";
 
-function MainPage() {
-  return <div>
-    This is products page
+import Footer from "../Footer";
+import classes from "./Products.module.scss";
+
+function Products() {
+  return (
+    <div className={classes.products_page}>
+      <Header />
+
       <Footer />
-    </div>;
+    </div>
+  );
 }
 
-export default MainPage;
+export default Products;
